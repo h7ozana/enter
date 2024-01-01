@@ -2,7 +2,7 @@
 define('DB_SERVER', 'enterrds1.cjcutxa28atb.ap-northeast-2.rds.amazonaws.com');
 define('DB_USERNAME', 'newjeans');
 define('DB_PASSWORD', 'newjeans');
-define('DB_NAME', 'EnterDB3');
+define('DB_NAME', 'EnterDB');
 
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
